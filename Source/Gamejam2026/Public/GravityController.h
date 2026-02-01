@@ -3,9 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
 #include "GameFramework/PlayerController.h"
-
 #include "GravityController.generated.h"
 
 /**
