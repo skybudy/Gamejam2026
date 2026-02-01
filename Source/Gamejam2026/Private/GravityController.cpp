@@ -5,6 +5,10 @@
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
+AGravityController::AGravityController()
+{
+};
+
 void AGravityController::UpdateRotation(float DeltaTime)
 {
 	FVector GravityDirection = FVector::DownVector;
